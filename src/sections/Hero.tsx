@@ -76,11 +76,11 @@ export default function Hero() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">EduPondo</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=epblue=600"
-                  alt=""
+                  src="/assets/images/ep-logo.svg"
+                  alt="ep logo"
                 />
               </a>
               <button
@@ -105,12 +105,18 @@ export default function Hero() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
+                <div className="space-y-2 py-6">
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
+                  </a>
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Sign up
                   </a>
                 </div>
               </div>
@@ -175,7 +181,11 @@ export default function Hero() {
             </div>
           </div>
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">
-            <img src="/assets/images/hero-image.png" alt="" />
+            <img
+              src="/assets/images/hero-image.png"
+              alt="hero image"
+              className="mx-auto"
+            />
           </div>
         </div>
       </div>
