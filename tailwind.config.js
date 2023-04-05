@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         epblue: '#0055FF',
         eplightblue: '#F4F6FD',
+        eplightbg: '#FCFCFD',
         gray: {
           100: '#f7fafc',
           200: '#edf2f7',
