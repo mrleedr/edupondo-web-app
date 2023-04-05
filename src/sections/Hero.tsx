@@ -23,7 +23,7 @@ export default function Hero() {
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-8 w-auto"
+                className="h-6 w-auto"
                 src="/assets/images/edupondo-logo.svg"
                 alt="edupondo logo"
               />
@@ -165,7 +165,7 @@ export default function Hero() {
               Our AI matching connects students with scholarships and financial
               aid, unlocking their potential for a brighter future.
             </p>
-            <div className="mt-10 flex items-center gap-x-6">
+            <div className="mt-10 flex flex-col items-center gap-x-6 sm:flex-row">
               <a
                 href="#"
                 className="rounded-md bg-epblue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-epblue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-epblue"
@@ -174,7 +174,7 @@ export default function Hero() {
               </a>
               <a
                 href="#"
-                className="text-sm font-semibold leading-6 text-gray-900 underline"
+                className="mt-4 text-sm font-semibold leading-6 text-gray-900 underline sm:mt-0"
               >
                 How to apply submission?
               </a>
