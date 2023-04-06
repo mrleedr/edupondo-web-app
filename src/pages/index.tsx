@@ -1,5 +1,6 @@
 import { Meta } from '@/layouts/Meta';
 import Hero from '@/sections/Hero';
+import Platform from '@/sections/Platform';
 import Search from '@/sections/Search';
 import { Main } from '@/templates/Main';
 
@@ -8,6 +9,7 @@ const Index = () => {
     <Main meta={<Meta title="EduPondo" description="" />}>
       <Hero />
       <Search />
+      <Platform />
     </Main>
   );
 };
