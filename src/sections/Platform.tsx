@@ -5,13 +5,13 @@ const Platform = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:ml-auto lg:pl-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-lg font-semibold uppercase leading-8 tracking-tight text-epblue">
-                Platform
-              </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <span className="block text-center text-base font-semibold uppercase leading-7 text-epblue lg:text-left">
+                  Platform
+                </span>
                 Find your path to{' '}
                 <span className="text-epblue">scholarship</span> today
-              </p>
+              </h2>
               <div className="mt-8 overflow-hidden">
                 <dl className="-mx-8 -mt-8 flex flex-wrap">
                   <div className="flex flex-col px-8 pt-8">
