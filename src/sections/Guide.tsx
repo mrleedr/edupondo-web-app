@@ -6,13 +6,13 @@ const Guide = () => {
           <div className="order-first flex items-start justify-end lg:order-last">
             <img
               src="/assets/images/guide-image.png"
-              alt="Product screenshot"
-              className="w-[48rem] max-w-none sm:w-[57rem]"
-              width={667}
+              alt="guide image"
+              className="mx-auto"
+              width={595}
               height={380}
             />
           </div>
-          <div className="lg:ml-auto lg:pl-4 lg:pt-4">
+          <div className="lg:mr-auto lg:pr-4 lg:pt-4">
             <div className="lg:max-w-lg">
               <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 <span className="block text-center text-base font-semibold uppercase leading-7 text-epblue lg:text-left">
