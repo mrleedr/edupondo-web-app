@@ -1,4 +1,5 @@
 import { Meta } from '@/layouts/Meta';
+import Guide from '@/sections/Guide';
 import Hero from '@/sections/Hero';
 import Platform from '@/sections/Platform';
 import Search from '@/sections/Search';
@@ -12,6 +13,7 @@ const Index = () => {
       <Search />
       <Platform />
       <Types />
+      <Guide />
     </Main>
   );
 };

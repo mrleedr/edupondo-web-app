@@ -9,8 +9,8 @@ const Platform = () => {
                 <span className="block text-center text-base font-semibold uppercase leading-7 text-epblue lg:text-left">
                   Platform
                 </span>
-                Find your path to{' '}
-                <span className="text-epblue">scholarship</span> today
+                Find Your Path To{' '}
+                <span className="text-epblue">Scholarship</span> Today
               </h2>
               <div className="mt-8 overflow-hidden">
                 <dl className="-mx-8 -mt-8 flex flex-wrap">
