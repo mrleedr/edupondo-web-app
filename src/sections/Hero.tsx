@@ -157,7 +157,7 @@ export default function Hero() {
         </svg>
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
-            <h1 className="max-w-lg text-4xl font-bold leading-tight tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-center text-4xl font-bold leading-tight tracking-tight text-gray-900 sm:text-6xl lg:text-left">
               Bring your dream <span className="text-epblue">education</span>{' '}
               within reach
             </h1>
@@ -165,7 +165,7 @@ export default function Hero() {
               Our AI matching connects students with scholarships and financial
               aid, unlocking their potential for a brighter future.
             </p>
-            <div className="mt-10 flex flex-col items-center gap-x-6 sm:flex-row">
+            <div className="mt-10 flex flex-col items-center justify-center gap-x-6 sm:flex-row lg:justify-start">
               <a
                 href="#"
                 className="rounded-md bg-epblue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-epblue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-epblue"
@@ -180,7 +180,7 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="mt-16 sm:mt-24 lg:mt-0 lg:shrink-0 lg:grow">
+          <div className="mx-auto mt-16 max-w-md sm:mt-24 lg:mt-0">
             <img
               src="/assets/images/hero-image.png"
               alt="hero image"

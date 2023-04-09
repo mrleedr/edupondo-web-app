@@ -14,7 +14,7 @@ const Guide = () => {
           </div>
           <div className="lg:mr-auto lg:pr-4 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-left">
                 <span className="block text-center text-base font-semibold uppercase leading-7 text-epblue lg:text-left">
                   Guide Tips
                 </span>
@@ -26,7 +26,7 @@ const Guide = () => {
                 take a look at our guides and tips to increase your chances of
                 success.
               </p>
-              <div className="mt-10 flex flex-col items-center gap-x-6 sm:flex-row">
+              <div className="mt-10 flex flex-col items-center justify-center gap-x-6 sm:flex-row lg:justify-start">
                 <a
                   href="#"
                   className="rounded-md bg-epblue px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-epblue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-epblue"

@@ -32,7 +32,7 @@ const Search = () => {
   return (
     <div className="bg-eplightbg py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto flex max-w-full flex-col items-center gap-4 lg:mx-0 lg:flex-row">
+        <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 lg:mx-0 lg:flex-row">
           <div className="flex-1">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               <span className="block text-center text-base font-semibold uppercase leading-7 text-epblue lg:text-left">
