@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
 
+import Footer from '@/sections/Footer';
+
 type IMainProps = {
   meta: ReactNode;
   children: ReactNode;
@@ -9,9 +11,9 @@ const Main = (props: IMainProps) => (
   <div className="w-full antialiased">
     {props.meta}
 
-    <div>
-      <main>{props.children}</main>
-    </div>
+    <div>{props.children}</div>
+
+    <Footer />
   </div>
 );
 
