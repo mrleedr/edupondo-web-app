@@ -121,7 +121,7 @@ const Footer = () => {
                     Stay in touch with us to discover more stories about
                     scholarships and education.
                   </p>
-                  <div className="flex space-x-6">
+                  <div className="flex space-x-4">
                     {navigation.social.map((item) => (
                       <a
                         key={item.name}
